@@ -1,0 +1,5 @@
+# 本包是 dsh-novel 的**读者侧挂件**：自己不含任何抓取/规则引擎，全部数据经 HTTP
+# 从 dsh-novel 的 /novel-api 读（同源 fetch），所以这里只需要一行能被装载的插件行。
+- insert:
+    - id: dsh-novel-widget
+      name: '@xrn1997/dsh-novel-widget'
